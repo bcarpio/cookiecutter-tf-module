@@ -6,7 +6,8 @@ Cookiecutter template to manage consistent creation of Terraform modules.
 
 ```bash
 $ pip install cookiecutter
-$ cookiecutter git@github.datapipe.net:Automation/cookiecutter-tf-module.git
+$ bundle install
+$ cookiecutter git@github.com:bcarpio/cookiecutter-tf-module.git
 ```
 
 You will be prompted for basic info (your name, module name, etc.) which will be used in the template.
