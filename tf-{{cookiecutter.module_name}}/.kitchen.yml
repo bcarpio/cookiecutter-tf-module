@@ -1,0 +1,24 @@
+---
+driver:
+  name: terraform
+  variable_files:
+    - testing.tfvars
+
+provisioner:
+  name: terraform
+
+platforms:
+  - name: aws
+
+verifier:
+  name: awspec
+
+transport:
+  name: ssh
+  ssh_key: ~/path/to/your/private/aws/key.pem
+
+suites:
+  - name: base
+    verifier:
+      patterns:
+      - spec/baseline_spec.rb
