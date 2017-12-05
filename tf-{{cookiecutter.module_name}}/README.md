@@ -1,5 +1,34 @@
 # {{ cookiecutter.module_name }}
 
-## Features
+## pre-commit
 
-## To-Do
+* Install the pre-commit package
+
+``` 
+brew install pre-commit
+```
+
+* Install the pre-commit hook 
+
+```
+pre-commit install
+```
+
+## Kitchen
+
+* Install the required ruby gems
+
+```
+bundle install
+```
+* Run the module to create the aws resource
+
+```
+bundle exec kitchen converge
+```
+* Run the awspec tests
+
+```
+bundle exec kitchen verify
+```
+
