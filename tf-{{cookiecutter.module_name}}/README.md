@@ -26,7 +26,7 @@ bundle install
 ```
 bundle exec kitchen converge
 ```
-* Run the awspec tests
+* Run the Inspec tests
 
 ```
 bundle exec kitchen verify

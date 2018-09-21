@@ -1,9 +1,1 @@
-//
-// Module: {{cookiecutter.module_name}}
-//
-
-//
-//
-//
-//
-//
+# Module: {{cookiecutter.module_name}}

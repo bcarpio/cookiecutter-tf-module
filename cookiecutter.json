@@ -1,8 +1,7 @@
 {
   "full_name": "Brian Carpio",
-  "company_name": "Intersections",
-  "email": "bcarpio@intersections.com",
-  "github_username": "bcarpio",
+  "company_name": "Comcast",
+  "email": "brian_carpio@comcast.com",
   "module_name": "template",
   "short_description": "A Terraform Module",
   "year": "2018",

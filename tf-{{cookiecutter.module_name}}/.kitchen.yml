@@ -8,17 +8,18 @@ provisioner:
   name: terraform
 
 platforms:
-  - name: aws
-
-verifier:
-  name: awspec
+  - name: ubuntu
 
 transport:
   name: ssh
-  ssh_key: ~/path/to/your/private/aws/key.pem
+  path: ~/.ssh/your_ssh_key.pem
+
+verifier:
+  name: terraform
+  groups:
+    - name: default
+      hostnames: public_dns
+      username: ubuntu
 
 suites:
-  - name: base
-    verifier:
-      patterns:
-      - spec/baseline_spec.rb
+  - name: default

@@ -1,4 +1,4 @@
-*.tfvars*
 *.tfstate*
 .terraform/
 Gemfile.lock
+.kitchen/*

@@ -3,7 +3,6 @@ source "https://rubygems.org"
 
 gem "bundler"
 gem "test-kitchen"
-gem "kitchen-terraform", "~> 2.0"
-gem "awspec", "~> 0.6"
-gem 'net-ssh','~> 3.0'
-gem 'kitchen-verifier-awspec'
+gem "kitchen-terraform"
+gem "kitchen-inspec"
+gem "net-ssh"
